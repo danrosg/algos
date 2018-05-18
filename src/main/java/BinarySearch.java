@@ -1,4 +1,4 @@
-public class Main {
+public class BinarySearch {
 
     public static int binarySearch(int sortedArray[], int search, int min, int max)
     {
@@ -24,7 +24,7 @@ public class Main {
 
     public static int runBinarySearchIteratively(
             int[] sortedArray, int key, int low, int high) {
-        int index = Integer.MAX_VALUE;
+            int index = -1;
 
         while (low <= high) {
             int mid = (low + high) / 2;
@@ -41,11 +41,14 @@ public class Main {
     }
 
 
+    /* Adding a more formal Testing Framework
     public static void main(String[] args) {
 
         int array[] = {1,2,3,4,5,6,7};
 
-        System.out.println(Main.binarySearch(array,10,0,array.length-1));
-        System.out.println(Main.runBinarySearchIteratively(array,10,0,array.length-1));
+        System.out.println(BinarySearch.binarySearch(array,10,0,array.length-1));
+        System.out.println(BinarySearch.runBinarySearchIteratively(array,10,0,array.length-1));
     }
+
+    */
 }

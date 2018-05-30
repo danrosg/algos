@@ -1,3 +1,5 @@
+package com.danrosg.algos;
+
 public class BinarySearch {
 
     public static int binarySearch(int sortedArray[], int search, int min, int max)

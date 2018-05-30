@@ -13,7 +13,7 @@ jmeter.log
 .DS_Store
 out/
 *.class
-
+*.lst
 
 # Package Files #
 *.jar

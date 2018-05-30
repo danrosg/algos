@@ -4,7 +4,7 @@ import static  org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 import com.danrosg.algos.*;
 
-class BynarySearchTest {
+public class BynarySearchTest {
 
 
     @Test

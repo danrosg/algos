@@ -8,9 +8,10 @@ public class BinarySearchTest {
 
 
     @Test
-    public void testing1(){
-        assertEquals(2,1+1);
-
+    public void testbinarysearch(){
+        int [] testArray = { 2,3,5,6,8,9,11,11,19};
+        assertEquals(23, BinarySearch.binarySearch(testArray,2,0,testArray.length));
 
     }
+
 }
